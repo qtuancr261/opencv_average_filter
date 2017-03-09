@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F5F6B0F7-EDA6-41BE-8F60-38B48E620F7B}</ProjectGuid>
+    <ProjectGuid>{89715B90-ABA3-49EA-999E-1203C83376A7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>opencv_grayscale_average_filter</RootNamespace>
+    <RootNamespace>opencv_color_average_filter</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,7 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="opencv_grayscale_average_filter.cpp" />
+    <ClCompile Include="opencv_color_average_filter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

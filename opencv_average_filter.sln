@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_grayscale_average_filter", "opencv_grayscale_average_filter\opencv_grayscale_average_filter.vcxproj", "{F5F6B0F7-EDA6-41BE-8F60-38B48E620F7B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_color_average_filter", "opencv_color_average_filter\opencv_color_average_filter.vcxproj", "{89715B90-ABA3-49EA-999E-1203C83376A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{F5F6B0F7-EDA6-41BE-8F60-38B48E620F7B}.Release|x64.Build.0 = Release|x64
 		{F5F6B0F7-EDA6-41BE-8F60-38B48E620F7B}.Release|x86.ActiveCfg = Release|Win32
 		{F5F6B0F7-EDA6-41BE-8F60-38B48E620F7B}.Release|x86.Build.0 = Release|Win32
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Debug|x64.ActiveCfg = Debug|x64
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Debug|x64.Build.0 = Debug|x64
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Debug|x86.Build.0 = Debug|Win32
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Release|x64.ActiveCfg = Release|x64
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Release|x64.Build.0 = Release|x64
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Release|x86.ActiveCfg = Release|Win32
+		{89715B90-ABA3-49EA-999E-1203C83376A7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
