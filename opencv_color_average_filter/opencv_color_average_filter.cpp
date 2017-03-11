@@ -43,8 +43,8 @@ int main(int argc, char *argv[])
 		}
 	namedWindow(argv[1], WINDOW_AUTOSIZE);
 	imshow(argv[1], input_img);
-	namedWindow("AfterFilter.jpg", WINDOW_AUTOSIZE);
-	imshow("AfterFilter.jpg", output_img);
+	namedWindow("AfteraverageFilter.jpg", WINDOW_AUTOSIZE);
+	imshow("AfteraverageFilter.jpg", output_img);
 
 	waitKey();
 	return 0;
