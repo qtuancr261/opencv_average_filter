@@ -21,6 +21,7 @@ void averageFilter(Mat& input, Mat& output, vector<vector<double>>& kernel)
 }
 int main(int argc, char *argv[])
 {
+	double start{ (double)getTickCount() };
 	Mat input_img;
 	input_img = imread(argv[1], IMREAD_GRAYSCALE);
 	if (input_img.empty())
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 		cerr << "Couldn't open image . Exit program...................." << endl;
 		return 1;
 	}
-	Mat output_img(input_img.rows, input_img.cols, CV_8U);
+	Mat output_img(input_img.clone());
 	//-------------------------------------------------------------------------------------------
 	int kernelSize{};
 	cout << " Nhap vao kich thuoc m cua ma tran Kernel: ";
@@ -39,6 +40,8 @@ int main(int argc, char *argv[])
 	imshow(argv[1], input_img);
 	namedWindow("Average Filter", WINDOW_AUTOSIZE);
 	imshow("Average Filter", output_img);
+	double end{ (double)(getTickCount() - start) / getTickFrequency() };
+	cout << " Timing : " << end << endl;
 	waitKey();
 	return 0;
 }
