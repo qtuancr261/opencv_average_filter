@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <opencv2/opencv.hpp>
+#include <vector>
 using namespace std;
 using namespace cv;
 void averageFilter(Mat& input, Mat& output, vector<vector<double>>& kernel)
